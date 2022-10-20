@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'portfolio';
 }
+/**
+ *               "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeng/resources/themes/lara-dark-blue/theme.css"
+ * 
+ */
