@@ -2,12 +2,12 @@
     <div class="container">
       <div class="h4 text-center mb-4 title">Projects</div>
       <div class="row">
-        <div *ngFor="let project of projects;let i = index;" class="col-lg-4 col-sm-12 col-md-6 mt-4">
+        <div *ngFor="let project of projects;let i = index;" class="col-lg-6 col-sm-12 col-md-6 mt-4">
             <div class="card">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                      <div *ngFor="let imageUrl of project.images;let j = index;" class="carousel-item " [class.active]="j == 0">
-                        <img [src]="imageUrl" class="d-block w-100" alt="...">
+                      <div *ngFor="let imageUrl of project.images;let j = index;" class="carousel-item ml-4" [class.active]="j == 0" style="height:400px ;max-width:400px ;">
+                        <img [src]="imageUrl" class="d-block w-100 h-100" [alt]="project.title" style="background-size: cover;">
                       </div>
               
                     </div>

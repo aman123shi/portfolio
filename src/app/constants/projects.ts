@@ -16,7 +16,7 @@ export const ProjectLists:ProjectDTO[] = [
             'assets/images/movie_review4.png',
         ],
         hasDemoLink:true,
-        link:'https://themoviedb.com',
+        link:'https://et-movie-review.herokuapp.com/',
      },
      {
         title:"House and Car Rental Admin Dashboard",
@@ -28,32 +28,20 @@ export const ProjectLists:ProjectDTO[] = [
         
         ],
         hasDemoLink:false,
-        link:'https://themoviedb.com',
+        link:'https://github.com/aman123shi/House_And_Car_Rental_Frontend-admin_Dashboard',
      },
      {
         title:"Ethiopian gregorian Calendar Converter",
         description:"I built this project when i needed a Library to Covert Ethiopian Date to Gregorian and vise versa but by that time i couldn't find one and did some research and build it then i created some Interface around it for demonstration I use Bootstrap,Handlebars,JQuery and Express",
         images:[
-            'assets/images/rental_angular1.png',
-            'assets/images/rental_angular2.png',
-            'assets/images/rental_angular3.png',
+            'assets/images/et-calendar.png',
+
         
         ],
         hasDemoLink:false,
-        link:'https://themoviedb.com',
+        link:'https://github.com/aman123shi/Ethiopian-Gregorian-Calendar-converter',
      },
-     {
-        title:"Ethiopian gregorian Calendar Converter",
-        description:"I built this project when i needed a Library to Covert Ethiopian Date to Gregorian and vise versa but by that time i couldn't find one and did some research and build it then i created some Interface around it for demonstration I use Bootstrap,Handlebars,JQuery and Express",
-        images:[
-            'assets/images/rental_angular1.png',
-            'assets/images/rental_angular2.png',
-            'assets/images/rental_angular3.png',
-        
-        ],
-        hasDemoLink:false,
-        link:'https://themoviedb.com',
-     },
+   
      {
         title:"House and Car Rental Client",
         description:"This is client Flutter App which lets them create account post a property search, filter by category, view their properties and Book properties Technologies used are Flutter,Dio,Bloc,Twilio for Sms,Chapa for Payment Integration,Express and MongoDB ",
@@ -64,16 +52,16 @@ export const ProjectLists:ProjectDTO[] = [
         
         ],
         hasDemoLink:false,
-        link:'https://themoviedb.com',
+        link:'https://github.com/aman123shi',
      },
      {
         title:"Body mass index calculator",
         description:"This is a simple Body Mass Index Calculator Flutter App with Beautiful UI.",
         images:[
-            'assets/images/bmi1.png',
-            'assets/images/bmi2.png',
+            'assets/images/bmi1.jpg',
+            'assets/images/bmi2.jpg',
         ],
         hasDemoLink:false,
-        link:'https://themoviedb.com',
+        link:'https://github.com/aman123shi/BMI_Calculator_Flutter_app',
      },
 ];
