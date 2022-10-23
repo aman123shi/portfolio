@@ -64,4 +64,14 @@ export const ProjectLists:ProjectDTO[] = [
         hasDemoLink:false,
         link:'https://github.com/aman123shi/BMI_Calculator_Flutter_app',
      },
+     {
+        title:"Chapa Payment for Node.js",
+        description:"an open source contribution for Node.js/Express.js integration just to get started with",
+        images:[
+            'assets/images/chapa.png',
+        
+        ],
+        hasDemoLink:false,
+        link:'https://github.com/aman123shi/chapa-node-express-boilerplate',
+     },
 ];
